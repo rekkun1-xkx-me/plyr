@@ -5,6 +5,9 @@
   "homepage": "https://plyr.io",
   "author": "Sam Potts <sam@potts.es>",
   "main": "dist/plyr.js",
+  "engines": {
+    "node": "14.x"
+  },
   "types": "src/js/plyr.d.ts",
   "module": "dist/plyr.min.mjs",
   "jsnext:main": "dist/plyr.min.mjs",
